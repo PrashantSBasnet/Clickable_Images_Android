@@ -22,12 +22,14 @@
     </com.google.android.material.appbar.AppBarLayout>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
+
         android:id="@+id/fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@android:drawable/ic_dialog_email"
-        android:contentDescription="TODO" />
+        android:layout_gravity="bottom|right"
+        android:layout_margin="32dp"
+        android:src="@drawable/ic_baseline_loupe_24"
+        app:backgroundTint="?attr/colorButtonNormal"
+        app:rippleColor="#B73A57" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
