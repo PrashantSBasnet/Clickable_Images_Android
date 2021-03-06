@@ -53,7 +53,8 @@
         android:contentDescription="@string/donut_description"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textintro"
-        app:srcCompat="@drawable/donut_circle" />
+        app:srcCompat="@drawable/donut_circle"
+        android:onClick="showDonutOrder"/>
 
     <ImageView
         android:id="@+id/ice_cream"
@@ -65,7 +66,8 @@
         android:contentDescription="@string/ice_cream_desc"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/donut"
-        app:srcCompat="@drawable/icecream_circle" />
+        app:srcCompat="@drawable/icecream_circle"
+        android:onClick="showIceCreamOrder"/>
 
     <ImageView
         android:id="@+id/froyo"
@@ -77,7 +79,8 @@
         android:contentDescription="@string/froyo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ice_cream"
-        app:srcCompat="@drawable/froyo_circle" />
+        app:srcCompat="@drawable/froyo_circle"
+        android:onClick="showFroyoOrder"/>
 
     <TextView
         android:id="@+id/donut_description"
